@@ -349,7 +349,6 @@ export default class Video extends Component {
       left: 0,
       width: this.width,
       height: this.height,
-      backgroundColor: '#ffffff',
       justifyContent: 'center',
       zIndex: 99999,
       marginTop: -1 * (this.state.videoContainerLayout_y ? parseFloat(this.state.videoContainerLayout_y) : 0), //margin: 0 - is not working properly. So, updated all the margin individually with 0.
